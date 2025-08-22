@@ -1,0 +1,39 @@
+# CODEOWNERS file for logging-framework-743
+# Global owners - will be requested for all PRs
+* @Armor-test/team-core @Armor-test/squad-payments @Armor-test/squad-performance
+
+# Directory ownership
+/data/ @Armor-test/grp-api @Armor-test/dept-reliability
+/build/ @Armor-test/team-governance @Armor-test/team-notifications
+/assets/ @Armor-test/team-research @Armor-test/squad-product @Armor-test/squad-mobile
+/app/ @Armor-test/dept-data @Armor-test/team-reporting @Armor-test/dept-notifications
+/auth/ @Armor-test/dept-notifications @Armor-test/squad-performance @Armor-test/team-security
+/examples/ @Armor-test/squad-api @Armor-test/squad-frontend @Armor-test/squad-apps
+/modules/ @Armor-test/team-reporting @Armor-test/dept-api
+/docs/ @Armor-test/squad-product @Armor-test/squad-api
+/models/ @Armor-test/team-reporting @Armor-test/dept-identity @Armor-test/dept-data
+/shared/ @Armor-test/dept-reliability @Armor-test/dept-identity
+/helpers/ @Armor-test/squad-database @Armor-test/squad-apps
+
+# File type ownership
+*.yaml @Armor-test/team-reporting @Armor-test/squad-reporting @Armor-test/grp-api
+*.kt @Armor-test/unit-design @Armor-test/squad-apps @Armor-test/grp-api
+*.scala @Armor-test/team-governance @Armor-test/dept-reliability
+*.sh @Armor-test/dept-ui @Armor-test/grp-storage @Armor-test/dept-api
+*.json @Armor-test/squad-cloud @Armor-test/squad-database @Armor-test/squad-ml
+*.jsx @Armor-test/squad-mobile @Armor-test/dept-release @Armor-test/squad-performance
+*.yml @Armor-test/squad-product @Armor-test/squad-ux
+*.css @Armor-test/squad-qa @Armor-test/squad-product @Armor-test/team-logging
+*.graphql @Armor-test/unit-devops @Armor-test/dept-billing
+*.xml @Armor-test/squad-reporting @Armor-test/grp-storage
+*.c @Armor-test/squad-search @Armor-test/grp-search
+*.sql @Armor-test/squad-search @Armor-test/squad-ux @Armor-test/squad-product
+*.php @Armor-test/team-research @Armor-test/unit-design @Armor-test/squad-qa
+*.java @Armor-test/dept-ui @Armor-test/squad-performance @Armor-test/team-logging
+*.scss @Armor-test/dept-automation @Armor-test/squad-ux
+
+# Security and special files
+Dockerfile @Armor-test/devops @Armor-test/infra
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+package.json @Armor-test/dependency-team @Armor-test/security
